@@ -11,10 +11,10 @@ public class Sum10 {
 
 
 	}
-//for (int sum=1; sum<=10; sum++) {
-//	sum += sum;
-//}
-//System.out.println(sum);
-//sumはfor文の中でのみ使える変数であるため上の文はエラーが発生する．
-
+/*for (int sum=1; sum<=10; sum++) {
+	sum += sum;
+}
+System.out.println(sum);
+sumはfor文の中でのみ使える変数であるため上の文はエラーが発生する．
+*/
 }

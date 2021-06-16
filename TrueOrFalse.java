@@ -6,11 +6,11 @@ public class TrueOrFalse {
 		System.out.println("0 または 1 を入力してください．");
 		Scanner scan = new Scanner(System.in);
 		int n = scan.nextInt();
-		TorF(n);
+		trueOrFalse(n);
 		scan.close();
 	}
 
-	private static void TorF(int i) {
+	private static void trueOrFalse(int i) {
 		if (i == 0) {
 			System.out.println("偽");
 		}else if (i == 1) {

@@ -6,8 +6,7 @@ public class UseListAndMap {
 
 	public static void main(String[] args) {
 
-		int i = 1;
-		i += 3;
+
 		System.out.println(i);
 		ArrayList<String> mt = new ArrayList<String>();
 		Scanner scan = new Scanner(System.in);

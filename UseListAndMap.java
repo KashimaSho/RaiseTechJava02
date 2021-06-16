@@ -7,6 +7,8 @@ public class UseListAndMap {
 	public static void main(String[] args) {
 
 		int i = 1;
+		i += 3;
+		System.out.println(i);
 		ArrayList<String> mt = new ArrayList<String>();
 		Scanner scan = new Scanner(System.in);
 
@@ -31,6 +33,7 @@ public class UseListAndMap {
 		scan.close();
 		System.out.println("私が行ってみたいところは"+mt.size()+"ヶ所あります。");
 		System.out.println(mt);
+		
 
 
 	}
